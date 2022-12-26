@@ -25,17 +25,11 @@ find_package(rosidl_default_generators REQUIRED)
 
 # Add New Message Here
 
-rosidl_generate_interfaces(bno055_raspi_squeeze
+rosidl_generate_interfaces(squeeze_custom_msgs
   "msg/ImuData.msg"
   "msg/ExternalWrenchEstimate.msg"
   DEPENDENCIES builtin_interfaces
  )
-
-install(
-  PROGRAMS
-  DESTINATION lib/${PROJECT_NAME}
-)
-
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
