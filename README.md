@@ -1,5 +1,5 @@
-# Squeeze Custom Messages
-Repo Containing all custom messages used for squeeze
+# XPLORER Custom Messages
+Repo Containing all custom messages used for XPLORER
 
 ## Instructions for Adding New Messages
 
