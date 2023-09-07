@@ -29,6 +29,7 @@ rosidl_generate_interfaces(squeeze_custom_msgs
   "msg/ImuData.msg"
   "msg/ExternalWrenchEstimate.msg"
   "msg/StateMachine.msg"
+  "msg/CollisionStatus.msg"
   DEPENDENCIES builtin_interfaces
  )
 
